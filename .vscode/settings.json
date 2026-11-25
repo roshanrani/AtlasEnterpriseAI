@@ -11,8 +11,11 @@
             "previewLimit": 50,
             "server": "dpg-dc00hft9fdbs73c856cg-a.virginia-postgres.render.com",
             "port": 5432,
+            "sshOptions": {
+                "port": 22
+            },
             "driver": "PostgreSQL",
-            "name": "Render PostgreSQL",
+            "name": "postgres",
             "database": "atlas_ai_azpm",
             "username": "atlas_user"
         }
